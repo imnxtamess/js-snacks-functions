@@ -7,7 +7,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 function wordsToInitials(arr) {
   const initials = []
-  for (i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     let thisName = arr[i];
     initials.push(thisName.charAt(0))
   }
