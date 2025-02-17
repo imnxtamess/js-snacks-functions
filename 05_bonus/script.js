@@ -13,7 +13,24 @@ const name = 'Mario';
 const date = new Date()
 const currentHour = date.getHours()
 
-function sayHello(hour, person) {
+/* function sayHello(hour, person) {
+  if (hour <= 13) {
+    console.log(`Buongiorno ${person}`);
+  }
+  else if (hour <= 17) {
+    console.log(`Buon pomeriggio ${person}`);
+  }
+  else if (hour <= 23) {
+    console.log(`Buonasera ${person}`);
+  }
+  else if (hour <= 4) {
+    console.log(`Buonanotte${person}`);
+  }
+  return
+} */
+
+
+const sayHello = (hour, person) => {
   if (hour <= 13) {
     console.log(`Buongiorno ${person}`);
   }
@@ -28,9 +45,6 @@ function sayHello(hour, person) {
   }
   return
 }
-
-
-
 
 
 // Invoca la funzione qui e stampa il risultato in console

@@ -6,7 +6,18 @@ const letter = "a"
 
 // Dichiara la funzione qui.
 
-function find_names_with_initials(arr, lett) {
+/* function find_names_with_initials(arr, lett) {
+  const nameInitials = []
+  for (let i = 0; i < arr.length; i++) {
+    const thisName = arr[i];
+    if (thisName.charAt(0).toLowerCase() === lett.toLowerCase()) {
+      nameInitials.push(thisName)
+    }
+  }
+  return nameInitials
+} */
+
+const find_names_with_initials = (arr, lett) => {
   const nameInitials = []
   for (let i = 0; i < arr.length; i++) {
     const thisName = arr[i];

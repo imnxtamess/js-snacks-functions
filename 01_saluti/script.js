@@ -5,10 +5,13 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-function printHello(name) {
+/* function printHello(name) {
   return console.log(`Ciao ${name}`);
 }
-
+ */
+const printHello = name => {
+  return console.log(`Ciao ${name}`)
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
