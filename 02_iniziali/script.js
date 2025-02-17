@@ -5,9 +5,17 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function wordsToInitials(arr) {
+  const initials = []
+  for (i = 0; i < arr.length; i++) {
+    let thisName = arr[i];
+    initials.push(thisName.charAt(0))
+  }
+  return initials
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(wordsToInitials(names))
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
